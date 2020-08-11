@@ -1,0 +1,35 @@
+{
+  "name": "seminario_grado",
+  "version": "1.0.0",
+  "description": "proyecto de seminario de grado",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node -r dotenv/config  src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-proposal-private-methods": "^7.10.4",
+    "@babel/plugin-proposal-throw-expressions": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "@types/express": "^4.17.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CRomanIA/seminario_grado.git"
+  },
+  "author": "croman/wplaza/jrozas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CRomanIA/seminario_grado/issues"
+  },
+  "homepage": "https://github.com/CRomanIA/seminario_grado#readme"
+}
